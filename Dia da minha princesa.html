@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Para o amor da minha vida 💕</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(180deg,#8b0000,#1a1a1a);
+color:white;
+display:flex;
+justify-content:center;
+}
+
+.app{
+width:380px;
+padding:20px;
+}
+
+.card{
+background:#222;
+border-radius:20px;
+padding:15px;
+margin-bottom:20px;
+}
+
+img{
+width:100%;
+border-radius:15px;
+}
+
+.music{
+text-align:center;
+}
+
+.player{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:10px;
+}
+
+.capa{
+width:120px;
+border-radius:12px;
+}
+
+#btn{
+background:#ff2e63;
+color:white;
+border:none;
+padding:12px 25px;
+border-radius:25px;
+font-size:16px;
+cursor:pointer;
+}
+
+#barra{
+width:100%;
+}
+
+.surpresa-btn{
+margin:20px auto;
+display:block;
+padding:10px 20px;
+border:none;
+border-radius:10px;
+background:#ff4d6d;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+.carta{
+display:none;
+position:fixed;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:#111;
+padding:25px;
+border-radius:15px;
+width:85%;
+max-width:350px;
+max-height:70vh;
+overflow-y:auto;
+text-align:center;
+box-shadow:0 0 20px rgba(255,0,80,0.6);
+}
+
+.carta h2{
+color:#ff4d6d;
+margin-bottom:10px;
+}
+
+.carta button{
+margin-top:15px;
+padding:8px 15px;
+border:none;
+border-radius:8px;
+background:#ff4d6d;
+color:white;
+cursor:pointer;
+}
+  
+.stories{
+margin-top:15px;
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:12px;
+}
+ 
+#volume{
+width:100%;
+accent-color:#8a2be2;
+}
+
+  .foto-box{
+position:relative;
+}
+
+.texto-foto{
+position:absolute;
+bottom:10px;
+left:10px;
+right:10px;
+color:white;
+font-size:18px;
+font-weight:bold;
+background:rgba(0,0,0,0.4);
+padding:8px;
+border-radius:10px;
+text-align:center;
+}
+  
+</style>
+</head>
+
+<script>
+function abrirCarta(){
+document.getElementById("carta").style.display="block";
+}
+
+function fecharCarta(){
+document.getElementById("carta").style.display="none";
+}
+</script>
+
+<body> 
+
+<div class="app">
+
+<h2 style="text-align:center">Para o amor da minha vida 💕</h2>
+
+<div class="card">
+<img src="img/foto1.jpg">
+</div>
+
+<div class="card">
+
+<div class="player">
+
+<div class="info">
+<h3>Dandelions</h3>
+<p>Ruth B.</p>
+</div>
+
+<audio id="musica">
+<source src="audio/musica.mp3">
+</audio>
+
+<button onclick="playPause()" id="btn">▶</button>
+
+<input type="range" id="barra" value="0">
+ 
+<label> ˒﹚) Volume</label>
+
+<input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+
+</div>
+
+</div>
+
+<div class="card">
+
+<button class="surpresa-btn" onclick="abrirCarta()">💌 Surpresa</button>
+
+<div class="stories">
+
+<div class="foto-box">
+<img src="img/foto2.jpg">
+
+<div class="texto-foto">
+Tudo começou quando nossos caminhos se cruzaram…
+</div>
+
+</div>
+<div class="foto-box">
+<img src="img/foto5.jpg">
+
+<div class="texto-foto">
+Aos poucos vc foi se tornando alguém muito especial pra mim...
+</div>
+
+</div>
+<div class="foto-box">
+<img src="img/foto4.jpg">
+
+<div class="texto-foto">
+Seu sorriso virou a coisa q eu mais gosto de ver...
+</div>
+
+</div>
+
+<div class="foto-box">
+<img src="img/foto3.jpg">
+
+<div class="texto-foto">
+Cada momento com vc virou uma lembrança q eu guardo com carinho...
+</div>
+
+</div>
+<div class="foto-box">
+<img src="img/foto7.jpg">
+
+<div class="texto-foto">
+E hoje eu só tenho uma certeza…
+</div>
+
+</div>
+  <div class="texto">
+( eu queru morder a sua linguinha hi hi)
+  
+</div>
+<div class="foto-box">
+<img src="img/foto6.jpg">
+
+<div class="texto-foto">
+Eu amo voxe ❤️
+</div>
+
+</div>
+
+</div>
+
+</div>
+  
+<div id="carta" class="carta">
+<h2>Para você meu amor ❤️</h2>
+
+<p>
+Hoje é o Dia da Mulher... mas sendo bem sincero, pra mim qualquer dia ainda seria pouco pra falar de vc. Pq vc n é só mais uma mulher no mundo... vc é alguém que marcou minha vida de um jeito que eu n sei nem explicar direito.
+
+Pelo tempo que estamos juntos eu consegui ver a pessoa incrível que vc é de verdade. N só por fora... mas principalmente por dentro. Seu jeito, sua forma de pensar, sua força, seu coração... tudo isso faz vc ser alguém muito especial pra mim.
+
+Com o tempo eu fui percebendo cada detalhe seu. As coisas que vc gosta... as coisas que vc sente... as coisas que vc n fala mas eu sei que estão aí dentro. E quanto mais eu conheço vc... mais eu vejo o quanto vc é uma mulher admirável.
+
+E sobre nós... eu gosto muito do que a gente tem. Gosto das nossas conversas... dos nossos momentos... das nossas risadas e até das nossas confusões às vezes kkk. Pq tudo isso faz parte da nossa história.
+
+No meio de tanta gente nesse mundo enorme... a vida foi lá e cruzou nossos caminhos. E olha... eu sou muito grato por isso. Pq conhecer vc foi a coisa mais bonita que já aconteceu comigo.
+
+Vc me faz sentir coisas boas. Me faz querer estar perto... querer cuidar... querer fazer vc sorrir. E isso n é algo simples hoje em dia. Sentimento de verdade é raro... e eu valorizo muito o que existe entre nós.
+
+Eu admiro vc pela mulher que vc é. Pela sua força... pela sua coragem... pela sua essência. Mesmo quando vc acha que n é tudo isso... eu vejo. E vejo muito mais do que vc imagina.
+
+E se tem uma coisa que eu gosto... é pensar no nosso "nós". Pq quando eu penso em nós dois... eu penso em momentos... em histórias... em lembranças sendo criadas. Penso em duas pessoas que, mesmo com imperfeições... escolheram continuar ali.
+
+Talvez a gente n seja perfeito... talvez a vida ainda tenha muitos caminhos pra mostrar... mas uma coisa eu sei... tudo que envolve vc acaba se tornando especial pra mim.
+
+Então hj eu só quero que vc saiba disso. Que vc é uma mulher incrível... que vc merece reconhecimento... carinho... respeito e felicidade todos os dias.
+
+E dentro de tudo isso... eu fico feliz de poder fazer parte da sua vida e de vc fazer parte da minha.
+</p>
+
+<p>
+Feliz Dia da Mulher 🌹
+</p>
+
+<p>
+E obrigado por ser exatamente quem vc é.
+</p>
+
+<p>
+Esse site é só um pedacinho do q eu sinto por vc mohmoh 🤗
+</p>
+
+<p>
+Eu te amo muito muito muito vida ❤️
+</p>
+
+<button onclick="fecharCarta()">Fechar</button>
+
+</div>
+  
+</div>
+
+</div>
+
+<script>
+
+var musica = document.getElementById("musica")
+var barra = document.getElementById("barra")
+var btn = document.getElementById("btn")
+
+function playPause(){
+
+if(musica.paused){
+musica.play()
+btn.innerHTML="■"
+}else{
+musica.pause()
+btn.innerHTML="▶"
+}
+
+} 
+
+musica.addEventListener("timeupdate",function(){
+
+barra.value = (musica.currentTime / musica.duration) * 100
+
+})
+
+barra.addEventListener("input",function(){
+
+musica.currentTime = (barra.value/100) * musica.duration
+
+})
+
+var volume = document.getElementById("volume")
+
+volume.addEventListener("input", function(){
+musica.volume = volume.value
+})
+
+</script>
+
+</body>
+</html>
